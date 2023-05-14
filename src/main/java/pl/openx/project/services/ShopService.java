@@ -4,10 +4,8 @@ import pl.openx.project.apicommunication.CardEndpointConector;
 import pl.openx.project.apicommunication.ProductEndpointConector;
 import pl.openx.project.apicommunication.UserEndpointConector;
 import pl.openx.project.model.*;
-
 import java.math.BigDecimal;
 import java.util.Comparator;
-import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -37,12 +35,6 @@ public class ShopService {
                 .filter(e -> e.getId() == id).findFirst()
                 .map(Product::getPrice)
                 .orElse(null);
-    }
-    public List<String> getAllCategories() {
-        return productEndpointConector.getAll().stream()
-                .map(Product::getCategory)
-                .distinct()
-                .toList();
     }
 
     public Map<String, BigDecimal> getCategoriesValue() {

@@ -1,3 +1,5 @@
+package pl.openx.projcet.service;
+
 import pl.openx.project.model.*;
 
 import java.math.BigDecimal;

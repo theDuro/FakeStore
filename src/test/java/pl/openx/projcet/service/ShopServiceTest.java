@@ -1,8 +1,8 @@
-import org.apache.commons.lang3.tuple.Pair;
+package pl.openx.projcet.service;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.mockito.stubbing.Answer;
 import pl.openx.project.apicommunication.CardEndpointConector;
 import pl.openx.project.apicommunication.ProductEndpointConector;
 import pl.openx.project.apicommunication.UserEndpointConector;

@@ -1,8 +1,6 @@
 package pl.openx.project.model;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-
 import java.time.LocalDateTime;
 import java.util.List;
 

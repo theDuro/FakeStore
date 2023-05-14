@@ -3,10 +3,7 @@ package pl.openx.project.json;
 import com.google.gson.*;
 
 import java.lang.reflect.Type;
-import java.time.Instant;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 public class LocalDateAdapter implements JsonDeserializer<LocalDateTime> {
